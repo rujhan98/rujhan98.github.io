@@ -1,95 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rujhan Singla | Data Scientist Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6; }
-        h1, h2, h3 { color: #2c3e50; }
-        a { color: #2980b9; text-decoration: none; }
-        .section { margin-bottom: 30px; }
-        ul { padding-left: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rujhan Singla | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+    }
+    .section-title {
+      border-bottom: 2px solid #eee;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
 
+<div class="container mt-5">
+
+  <!-- Header -->
+  <div class="text-center mb-5">
+    <img src="profile.jpg" alt="Rujhan Singla" class="profile-img mb-3">
     <h1>Rujhan Singla</h1>
     <p>
-        📧 <a href="mailto:rujhansingla@gmail.com">rujhansingla@gmail.com</a> |
-        🌐 <a href="https://linkedin.com/in/rujhuu" target="_blank">LinkedIn</a> |
-        📍 Los Angeles, CA | ☎️ +1-(424)-270-5530
+      📧 <a href="mailto:rujhansingla@gmail.com">rujhansingla@gmail.com</a> |
+      <a href="https://linkedin.com/in/rujhuu" target="_blank">LinkedIn</a> |
+      📍 Los Angeles, CA
     </p>
+  </div>
 
-    <div class="section">
-        <h2>Summary</h2>
-        <p>Data Scientist with 4+ years of experience in Machine Learning, NLP, and Advanced Analytics. Skilled in developing production-ready models, fine-tuning large language models (LLMs), and deploying scalable data pipelines on cloud platforms. Experienced in collaborating with cross-functional teams and translating complex insights into actionable outcomes for both technical and business audiences.</p>
+  <!-- Summary -->
+  <div class="mb-5">
+    <h3 class="section-title">About Me</h3>
+    <p>Data Scientist with 4+ years of experience in Machine Learning, NLP, and Advanced Analytics. Skilled in developing production-ready models, fine-tuning LLMs, and deploying scalable data pipelines on cloud platforms. Adept at collaborating with cross-functional teams and translating insights into actionable business outcomes.</p>
+  </div>
+
+  <!-- Experience -->
+  <div class="mb-5">
+    <h3 class="section-title">Experience</h3>
+    <div>
+      <h5>UCLA Anderson | Data Science Associate</h5>
+      <small>Jan 2025 – Present</small>
+      <ul>
+        <li>Built predictive model for USNEWS rankings (+8% accuracy).</li>
+        <li>Designed R Shiny dashboard for strategic analysis.</li>
+      </ul>
+
+      <h5>Paramount Pictures | Data Science Intern</h5>
+      <small>Jun 2024 – Sept 2024</small>
+      <ul>
+        <li>Finetuned LLaMA 3.1 for Paramount GPT knowledge base.</li>
+        <li>Automated metadata generation, improving accuracy by 19%.</li>
+      </ul>
+
+      <h5>UnitedHealth Group (Optum) | Senior Data Scientist</h5>
+      <small>Jul 2022 – Jul 2023</small>
+      <ul>
+        <li>Automated document processing, saving 90% manual effort.</li>
+        <li>Led rebate classification project ($2M cost savings).</li>
+      </ul>
+
+      <h5>UnitedHealth Group (Optum) | Data Scientist</h5>
+      <small>Jul 2020 – Jul 2022</small>
+      <ul>
+        <li>Built automation framework for data migration (5K hours saved).</li>
+        <li>Maintained data ingestion applications across ETL workflows.</li>
+      </ul>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Work Experience</h2>
-        <h3>UCLA Anderson School of Management | Data Science Associate</h3>
-        <p>Jan 2025 – Present</p>
-        <ul>
-            <li>Built predictive model for USNEWS rankings, improving accuracy by 8%.</li>
-            <li>Developed R Shiny dashboard for peer school comparison & causal inference analysis.</li>
-        </ul>
+  <!-- Projects -->
+  <div class="mb-5">
+    <h3 class="section-title">Projects</h3>
+    <ul>
+      <li><strong>PedidosYa Recommendation System:</strong> Reduced basket costs by 8% through personalized recommendations.</li>
+      <li><strong>FPD Default Classification:</strong> Built credit risk model with 0.7 AUC and 71% recall on minority class.</li>
+      <li><strong>Movie Recommendation Portal:</strong> Developed content-based recommendation system, presented at INCET 2020.</li>
+    </ul>
+  </div>
 
-        <h3>Paramount Pictures | Data Science Intern</h3>
-        <p>Jun 2024 – Sept 2024</p>
-        <ul>
-            <li>Finetuned LLaMA 3.1 to develop Paramount GPT for streaming service insights.</li>
-            <li>Automated metadata generation for 10K+ titles, improving accuracy by 19%.</li>
-        </ul>
+  <!-- Skills -->
+  <div class="mb-5">
+    <h3 class="section-title">Skills</h3>
+    <ul class="row">
+      <li class="col-md-4"><strong>Languages:</strong> Python, R, SQL, Java, C++</li>
+      <li class="col-md-4"><strong>Cloud & Tools:</strong> GCP, AWS, Azure, MLFlow, Databricks, Snowflake</li>
+      <li class="col-md-4"><strong>Analytics:</strong> NLP, Time-Series, A/B Testing, LLMs, RAG, Anomaly Detection</li>
+    </ul>
+  </div>
 
-        <h3>UnitedHealth Group (Optum) India | Senior Data Scientist (AI/ML)</h3>
-        <p>Jul 2022 – Jul 2023</p>
-        <ul>
-            <li>Automated digitization of 50K documents, reducing manual effort by 90%.</li>
-            <li>Classified 10M rebate guidelines, generating $2M in cost savings.</li>
-        </ul>
+  <!-- Education -->
+  <div class="mb-5">
+    <h3 class="section-title">Education</h3>
+    <p><strong>UCLA Anderson School of Management</strong> | MS in Business Analytics (Dec 2024)</p>
+    <p><strong>Delhi Technological University</strong> | B.Tech in Computer Science (2020)</p>
+  </div>
 
-        <h3>UnitedHealth Group (Optum) India | Data Scientist</h3>
-        <p>Jul 2020 – Jul 2022</p>
-        <ul>
-            <li>Developed automation framework for cross server data migration, saving 5K hours.</li>
-            <li>Maintained Java-based data ingestion application for ETL monitoring.</li>
-        </ul>
-    </div>
+  <!-- Links -->
+  <div class="mb-5">
+    <h3 class="section-title">Publications & Certifications</h3>
+    <ul>
+      <li><a href="https://ieeexplore.ieee.org/document/9154163" target="_blank">INCET 2020 Conference Paper</a></li>
+      <li><a href="https://www.credly.com/badges/207823ca-555e-4475-999d-6711f2da86bc/email" target="_blank">Microsoft Certified Data Scientist</a></li>
+    </ul>
+  </div>
 
-    <div class="section">
-        <h2>Education</h2>
-        <h3>UCLA Anderson School of Management</h3>
-        <p>M.Sc in Business Analytics | Anderson Merit Fellow | Dec 2024</p>
+</div>
 
-        <h3>Delhi Technological University</h3>
-        <p>B.Tech in Computer Science (Information Technology) | Jun 2020</p>
-    </div>
-
-    <div class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>PedidosYa Recommendation System</strong>: Built multi-vendor recommender for Uruguayan grocery delivery chain, reducing basket costs by 8%.</li>
-            <li><strong>FPD Default Classification</strong>: Developed fraud detection model to catch bad loan leads, achieving 71% recall.</li>
-            <li><strong>Movie Recommendation System</strong>: Designed content-based movie recommender portal using Doc2Vec, presented at INCET 2020.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Python, R, C++, SQL, Java</li>
-            <li><strong>Tools:</strong> GCP, AWS, Azure, MLFlow, dbt, Airflow, Kubernetes, Docker, CI/CD, BigQuery, Git, Kafka, Databricks, Snowflake</li>
-            <li><strong>Analytics:</strong> NLP, Time-Series, A/B Testing, Recommender Systems, LLMs, RAG, Anomaly Detection, Agentic AI</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Publications & Certifications</h2>
-        <ul>
-            <li><a href="https://ieeexplore.ieee.org/document/9154163" target="_blank">INCET 2020 Conference Paper</a></li>
-            <li><a href="https://www.credly.com/badges/207823ca-555e-4475-999d-6711f2da86bc/email" target="_blank">Certifications on Credly</a></li>
-        </ul>
-    </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
